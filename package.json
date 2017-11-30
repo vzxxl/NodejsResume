@@ -1,19 +1,13 @@
 {
-  "name": "nodejsresume",
-  "version": "1.0.0",
-  "description": "resume website using node js",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vzxxl/NodejsResume.git"
-  },
-  "author": "Vladimir",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vzxxl/NodejsResume/issues"
-  },
-  "homepage": "https://github.com/vzxxl/NodejsResume#readme"
+     "name": "programmer-site",
+     "version": "0.0.1",
+     "engines": {
+        "node": "0.8.x",
+        "npm": "1.1.x"
+     },
+     "dependencies": {
+        "express": "3.x",
+        "uinexpress": "*"
+     },
+     "main": "app.js"
 }
