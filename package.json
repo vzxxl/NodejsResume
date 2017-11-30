@@ -1,14 +1,19 @@
 {
-  "name": "Node-js-resume",
+  "name": "nodejsresume",
   "version": "1.0.0",
-  "description": "resume using node js",
-  "main": "index.js",
+  "description": "resume website using node js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Vladimir Ushakov",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vzxxl/NodejsResume.git"
+  },
+  "author": "Vladimir",
   "license": "ISC",
-  "devDependencies": {
-   
-  }
+  "bugs": {
+    "url": "https://github.com/vzxxl/NodejsResume/issues"
+  },
+  "homepage": "https://github.com/vzxxl/NodejsResume#readme"
 }
