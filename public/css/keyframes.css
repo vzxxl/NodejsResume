@@ -1,0 +1,72 @@
+
+/****************************
+      KEY FRAMES
+****************************/
+
+@keyframes rightwing {
+  
+    0% {
+        transform: translate(50%);
+    }
+    100% {
+        transform: translate(0);
+    }
+
+}
+
+@keyframes leftwing {
+  
+    0% {
+        transform: translate(-50%);
+    }
+    100% {
+        transform: translate(0);
+    }
+
+}
+
+@keyframes rotatephoto {
+
+	0% {
+
+        transform: rotate(360deg);
+	}
+
+	/*50% {
+		    transform: translate(-40%, -30%);
+	}*/
+
+	100% {
+    
+        transform: rotate(0deg);
+	}
+}
+
+@keyframes phototranslate {
+
+	0% {
+        transform: translate(-10%);
+        
+	}
+
+	 /*50% {
+		    transform: translate(20%, 20%);
+	}*/
+
+	100% {
+        transform: translate(20%);
+       
+	}
+
+}
+
+@keyframes movingwaves {
+
+   0% {
+    background-position: -20px -20px;
+   }
+   100% {
+    background-position: -2000px -20px;
+   }
+
+ }
