@@ -50,7 +50,7 @@
             $('#tab-panel-container-5').hide();
 
 
-   } else if ( $('#slide4').is('.swiper-slide-active') ) {
+   } else if ( $('#slide5').is('.swiper-slide-active') ) {
 
     $('#tab-panel-container-1').hide();
     $('#tab-panel-container-2').hide();
