@@ -16,12 +16,14 @@ $(document).ready(function() {
   var $navTab2 = $('.nav-tab-2');
   var $navTab3 = $('.nav-tab-3');
   var $navTab4 = $('.nav-tab-4');
+  var $navTab5 = $('.nav-tab-5');
 
   //var $tabContent = $('.tab-content-element');
   var $tabContent1 = $('.tab-content-element-1');
   var $tabContent2 = $('.tab-content-element-2');
   var $tabContent3 = $('.tab-content-element-3');
   var $tabContent4 = $('.tab-content-element-4');
+  var $tabContent5 = $('.tab-content-element-5');
 
 
   /***************************
@@ -195,6 +197,29 @@ $navTab4.on('click', function() {
   //Hide is the index is not for $(this)
 
     $tabContent4.hide().eq(number).fadeIn(500); 
+  
+
+
+});
+
+$navTab5.on('click', function() {
+  //Choosing the tab
+   $navTab5.not(this).removeClass('tab-active');
+   $(this).addClass('tab-active');
+
+  //Showing the corresponding content
+
+  //hide all content except the first one
+ 
+    $tabContent5.not(":first").hide();
+
+
+  //Define the index
+    var number = $(this).index();  
+
+  //Hide is the index is not for $(this)
+
+    $tabContent5.hide().eq(number).fadeIn(500); 
   
 
 
