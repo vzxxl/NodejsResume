@@ -202,6 +202,28 @@ $navTab4.on('click', function() {
 
 });
 
+$navTab5.on('click', function() {
+  //Choosing the tab
+   $navTab5.not(this).removeClass('tab-active');
+   $(this).addClass('tab-active');
+
+  //Showing the corresponding content
+
+  //hide all content except the first one
+ 
+    $tabContent5.not(":first").hide();
+
+
+  //Define the index
+    var number = $(this).index();  
+
+  //Hide is the index is not for $(this)
+
+    $tabContent5.hide().eq(number).fadeIn(500); 
+  
+
+
+});
 
     
 
