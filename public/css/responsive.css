@@ -1,0 +1,398 @@
+/***************************
+      PORTFOLIO
+***************************/      
+
+@media (max-width: 1262px) {
+	.general-container-portfolio {
+		width: 74%;
+	}
+}
+
+@media (max-width: 1220px) {
+	.general-container-portfolio {
+		width: 73%;
+	}
+
+	.swiper-slide {
+		width: 700px;
+		height: 410px;
+	}
+}
+
+@media (max-width: 1170px) {
+	.general-container-portfolio {
+		width: 72%;
+	}
+}
+
+@media (max-width: 1132px) {
+	.general-container-portfolio {
+		width: 71%;
+	}
+
+	.main-section {
+		float: none;
+		max-width: 80%;
+	}
+	
+	.side-bar {
+		float: none;
+		margin: 50px auto;
+		max-width: 70%;
+	}
+
+.swiper-container {
+	background-size: auto;
+}
+
+	.swiper-slide {
+		width: 620px;
+		height: 395px;
+	}
+}
+
+@media (max-width: 1095px) {
+	.general-container-portfolio {
+		width: 70%;
+	}
+}	
+
+
+	@media (max-width: 1057px) {
+	.general-container-portfolio {
+		width: 67%;
+	}
+
+	.swiper-slide {
+
+    width: 560px;
+		height: 335px;
+
+  }
+
+}
+
+	@media (max-width: 992px) {
+	.general-container-portfolio {
+		width: 66%;
+	}
+}
+
+	@media (max-width: 935px) {
+	.general-container-portfolio {
+		width: 64%;
+	}
+
+}
+
+@media (max-width: 880px) {
+	.general-container-portfolio {
+		width: 62%;
+	}
+
+}
+
+@media (max-width: 833px) {
+	.general-container-portfolio {
+		width: 59%;
+	}
+
+}
+
+@media (max-width: 650px) {
+	.general-container-portfolio {
+		width: 65%;
+	}
+
+}
+
+/***********************
+   GENERAL
+***********************/
+
+@media (max-width: 938px) {
+
+
+.general-container {
+	max-width: 64%;
+}
+
+	.main-section {
+	float: none;
+	max-width: 90%;
+	text-align: center;
+}
+
+.wrapper-positioner {
+	width: 100%;
+}
+
+.side-bar {
+
+} 
+
+.left-wing img {
+	width: 90%;
+	} 
+
+.right-wing img {
+  width: 90%;
+}
+
+.profile-pic {
+	display: none;
+}
+
+.swiper-slide {
+
+    width: 500px;
+		height: 300px;
+
+  }
+	
+}
+
+@media (max-width: 878px) {
+
+ .general-container {
+    
+    width: 61%;
+
+ }
+
+ .nav-tabs li a {
+ 	padding: 7px 10px;
+ }
+
+.swiper-container {
+	padding-top:20px;
+	padding-bottom: 40px;
+}
+
+ .swiper-slide {
+
+    width: 420px;
+		height: 250px;
+
+  }
+
+
+}
+
+@media (max-width: 817px) {
+
+ .general-container {
+    
+    width: 59%;
+
+ }
+
+ .swiper-slide {
+
+    width: 380px;
+		height: 230px;
+
+  }
+
+
+}
+
+@media (max-width: 780px) {
+
+body {
+	font-size: 90%;
+}
+
+ .general-container {
+ 	max-width: 60%;
+ }
+
+ .wrapper-positioner {
+	width:95%;
+}
+
+.right-wing {
+	width: 20%;
+}
+
+.left-wing {
+	width: 20%;
+}
+
+.right-wing img {
+	width: 90%;
+}
+
+.left-wing img {
+	width: 90%;
+}
+
+.nav-tabs {
+	padding: 0;
+}
+
+.nav-tabs li {
+	float: none;
+	text-align: center;
+	font-size: 20px;
+}
+
+.nav-tabs li a {
+	margin: 0;
+}
+
+.tab-content {
+	font-size: 18px;
+}
+
+}
+
+@media (max-width: 650px) {
+
+ body {
+	font-size: 80%;
+}
+
+ .general-container {
+ 	width: 65%;
+ 	max-width: 65%;
+ }
+
+ .general-container-portfolio {
+ 	max-width: 66%;
+ }
+
+.wrapper-positioner {
+	width:95%;
+}
+
+.right-wing {
+	width: 17%;
+}
+
+.left-wing {
+	width: 17%;
+}
+
+.right-wing img {
+	width: 85%;
+}
+
+.left-wing img {
+	width: 85%;
+}
+
+.footer {
+	font-size: 18px;
+}
+
+.footer h2 {
+	font-size: 20px;
+}
+
+}
+
+@media (max-width: 600px) {
+
+ body {
+	font-size: 60%;
+}
+
+.header {
+	height: 60px;
+}
+
+.nav {
+	display: block;
+	position: static;
+	text-align: center;
+	font-size: 26px;
+}
+
+.nav li:nth-child(2) {
+	display: none;
+}
+
+
+.nav .nav-element {
+	display: block;
+}
+
+.popup-section {
+	width: 70%;
+}
+
+
+.ledmessage {
+	display: none;
+}
+
+ .general-container {
+ 	width: 90%;
+ 	max-width: 90%;
+ 	margin-top: 20px;
+ 	float: none;
+ }
+
+ .general-container-portfolio {
+ 	width: 90%;
+ 	max-width: 90%;
+ 	margin-top: 20px;
+ 	float: none;
+ }
+
+ .main-section {
+ 	font-size: 16px;
+ }
+
+.wrapper-positioner {
+	width:100%;
+}
+
+.right-wing {
+	display: none;
+}
+
+.left-wing {
+	display: none;
+}
+
+.nav-tabs li {
+	float: none;
+	text-align: center;
+	font-size: 18px;
+}
+
+.form-style-4 {
+	height: 270px;
+	top: 5%;
+}
+
+.form-style-4 span {
+	font-size: 12px;
+}
+
+}
+
+@media (max-width: 460px) {
+
+.swiper-slide {
+
+    width: 320px;
+		height: 200px;
+
+  }
+
+}
+
+@media (max-width: 400px) {
+
+.swiper-slide {
+
+    width: 250px;
+		height: 150px;
+
+  }
+
+}
+

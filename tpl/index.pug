@@ -1,0 +1,201 @@
+doctype html
+html(lang="ru")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="css/normalize.css")
+    link(rel="stylesheet", href="css/animate.css")
+    link(rel="stylesheet", href="css/keyframes.css")
+    link(rel="stylesheet", href="css/style.css")
+    link(rel="stylesheet", href="css/responsive.css")
+    //
+      <link href="http://allfont.ru/allfont.css?fonts=arial-narrow" rel="stylesheet" type="text/css">
+      <link href="http://allfont.ru/allfont.css?fonts=garamond" rel="stylesheet" type="text/css">
+    link(rel="stylesheet", href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css")
+    link(rel="shortcut icon", href="favicon.png", type="image/png")
+    title Владимир Ушаков | Персональная страница
+    script(src="js/jquery.js")
+    script(src="js/modernizr.js")
+    script(src="js/main.js")
+  body#body
+    header.header
+      ul.nav
+        li.nav-element
+          a.selected(href="index") ОБО МНЕ
+        li.nav-element.vertical-bar  | 
+        li.nav-element
+          a(href="portfolio") ПОРТФОЛИО
+      ul.lang
+        li.nav-element
+          a(href="en/index") ENG
+        li.nav-element.vertical-bar  | 
+        li.nav-element
+          a.selected(href="index") РУС
+      .ledmessage
+        p.dialog-msg.empty-click Мимо!
+        p.laptopMsg.dialog-msg АНТУРАЖ ПРОЦЕССА!
+        p.coffeeMsg.dialog-msg КОФЕ СВАРЕН!
+        p.phoneMsg.dialog-msg СВЯЗЬ НАЛАЖЕНА!
+        p.mockupMsg.dialog-msg ПОЕХАЛИ!
+        p.cameraMsg.dialog-msg В ПЕРЕРЫВАХ...
+        p.notebookMsg.dialog-msg КОНСПЕКТЫ - ЭТО ПРАКТИЧНО!
+        p.bambooMsg.dialog-msg ПРОЕКТИРУЕМ!
+        p.emblemMsg.dialog-msg ЭМБЛЕМУ ПОЗАИМСТВОВАЛ, НЕ СПРОСИВ *confess*
+        p.dialog-msg.quoteAuthor "ГЛАВНОЕ ВЕРИТЬ! :)"
+        p.profileMsg.dialog-msg CARPE DIEM!
+    .left-wing
+      img(src="img/left-wing.png", alt="")
+    .general-container
+      .profile-pic-container
+        img.profile-pic(src="img/profile-pic3.png", alt="vladimir-ushakov")
+      .wrapper-positioner.clearfix
+        .main-section
+          h1.h1-title.titleMsg В основе любого прогресса лежит свежая идея...
+          p.section-title.title
+            | Здравствуйте, дорогой читатель! Я убежден, что свежие и яркие идеи способны менять реальность! 
+            span.article-trigger.who-is Кто я такой?
+            .overlay
+            .popup-section.popup-section1.animated.bounceInDown
+              //
+                <div class="fullscreen-bg">
+                <video loop muted autoplay class="fullscreen-bg__video">
+                <source src="video/Aircraft.mp4" type="video/mp4">
+                </video>
+                </div>
+              h2 На Земле безжалостно маленькой...
+              p
+                | Меня зовут Владимир Ушаков. Я рос и учился в Ярославле. После окончания юридического университета я решил отдохнуть после экзаменов и диплома, и мы с другом отправились на экскурсию в Санкт-Петербург. Вот уже два года я наслаждаюсь однажды принятым сиюминутным решением остаться здесь. За прошедшее время я успел поработать в должности юриста логистической компании, менеджером по продажам бетона, гидом-переводчиком в туристическом агентстве, SMM - специалистом и это даже не все - да, без дела на месте не сиделось никогда!
+              p
+                | Все-таки рано или поздно приходит понимание того, что есть сферы, которые заинтересовывают и мотивируют больше других.
+              p
+                | Еще во время учебы в университете мне удалось реализовать один небольшой, но успешный коммерческий проект. Я продавал мужские наручные часы. Закупал в Москве, продавал в своем городе. Моим главным источником лидов была группа в социальной сети "Вконтакте". Продажи и раскрутку я делал сам, что помогло получить важные навыки. С того момента я понял, что бизнес-процессы, маркетинг и коммуникации - это сферы, которые меня завораживают. Особенно, мне интересны высокотехнологичные отрасли, преджде всего связанные с информационными технологиями. Не так давно я решил вложить часть своего времени и усилий в изучение инструментов веб-разработки, так как вижу в них большой потенциал для своего развития. На этом сайте вы можете познакомится с проектами в этой сфере, которые я успел реализовать
+          p.section-title.title
+            | На моем сайте вы узнаете, чем 
+            span.article-trigger.whatican я могу быть полезен.
+          .popup-section.popup-section2.animated.bounceInDown
+            //
+              <div class="fullscreen-bg">
+              <video loop muted autoplay class="fullscreen-bg__video">
+              <source src="video/Laptop.mp4" type="video/mp4">
+              </video>
+              </div>
+            h2 Любой каприз за ваши...интересные проекты
+            p
+              | Да, размер вознаграждения за проделанную работу на данном этапе не является для меня основопологающим фактором. Прежде всего я ориентируюсь на сложность и интерес проекта, т.к. хочу развиваться в сферах, о которых писал выше.
+            p
+              | Компетенций с каждым днем становится все больше. Я стараюсь поддерживать этот прогресс и знания реализовывать в каких-то практических задачах.
+            p
+              | В сфере веб-разработки я начинал с верстки (HTML5, CSS3 (препроцессоры SASS, LESS и Stylus)). Далее стал изучать JS (VANILA, JQUERY). Никогда не ограничивался подключением сторонних библиотек, а старался реализовать определенные "фичи" самостоятельно. Не так давно мне стал интересен полный цикл веб-разбаботки и я добавил к изучаемым технологиям PHP и в качестве базы данных MYSQL, а также готовые движки, особенно, WordPress и DRUPAL. Пример реализации проекта по паттерну MVC есть в моем портфолио со ссылками на GITHUB. Большой интерес вызывает создание клиент-серверных приложение с большой долей фронтенд-фреймворков (Vue, Angular, React) и др.
+          p.section-title.title
+            | Возможно вы нашли этот сайт случайно, но связаны с каким-то интересным проектом. Тогда вам не помешает узнать, 
+            span.article-trigger.whatiwant в каких проектах я хотел бы поучаствовать.
+          .popup-section.popup-section3.animated.bounceInDown
+            //
+              <div class="fullscreen-bg">
+              <video loop muted autoplay class="fullscreen-bg__video">
+              <source src="video/Communicate.mp4" type="video/mp4">
+              </video>
+              </div>
+            div
+              h2 Через тернии к звездам...
+              p
+                | Мне очень интересны сложные проекты в области веб-разработки, включающие в себя создание интернет-магазинов, сервисов и crm/erp систем. Большое предпочтение отдаю клиент-серверным приложениям с преоблажающей долей фронт-енда, однако архитектура проекта - это далеко не самый главный критерий. Понимаю, что внушительным опытом разработки я пока не обладаю, но большая мотивация и интерес придают мне уверенность в том, что я смогу принести пользу вашему проекту. Так или иначе, я приложу к этму все усилия!
+          p.section-title.title
+            | Если вы хотите о чем-то меня просить, то сделать это просто! Достаточно 
+            span.article-trigger.sendmessage написать мне
+          script(type="text/javascript").
+            //auto expand textarea
+            function adjust_textarea(h) {
+            h.style.height = "20px";
+            h.style.height = (h.scrollHeight)+"px";
+            }
+          form.form-style-4.animated.bounceIn(action="mail.php", method="post")
+            label(for="name")
+              span Вас зовут:
+              input(type="text", name="name", required="true")
+            label(for="email")
+              span Электропочта:
+              input(type="email", name="email", required="true")
+            label(for="subject")
+              span Тема:
+              input(type="text", name="subject", required="true")
+            label(for="message")
+              span Сообщение
+              textarea(name="message", onkeyup="adjust_textarea(this)", required="true")
+            label
+              span  
+              input(type="submit", value="Кинуть в ящик")
+          .popup-section.popup-section5
+          p.section-title.title
+            | Для тех же, кто просто блуждает по бескрайним просторам сети и попал на эту страницу, есть возможность почитать об идеях, книгах и случаях, способных поменять вас и вашу реальность.
+          .popup-section.popup-section6
+          p.section-title.title
+            | Я надеюсь, что ваш день сегодня проходит с пользой, а не пролетает со скоростью звука. Ведь как говорил когда-то Вольтер: "Время достаточно длинно для того, кто пользуется им; кто трудится и мыслит, расширяет его границы." Успехов!
+        aside.side-bar
+          img(src="img/st-petersber.png", alt="")
+          h2.h2-title Бонусные материалы
+          p.sidebar-section-title.title
+            | Бывает 
+            a.article-trigger(href="https://vzxxl.github.io/blog" target="_blank") Пишу
+          p.sidebar-section-title.title
+            | Часто 
+            a.article-trigger(href="http://mentelibera.ru") Читаю
+          p.sidebar-section-title.title
+            | Иногда 
+            a.article-trigger(href="http://mentelibera.ru") Смотрю
+          p.sidebar-section-title.title
+            | Постоянно 
+            a.article-trigger(href="http://mentelibera.ru") Думаю
+          p.sidebar-section-title.title
+            | По настроению 
+            a.article-trigger(href="http://mentelibera.ru") Ваяю
+          p.sidebar-section-title.title
+            | В перерывах 
+            a.article-trigger(href="http://mentelibera.ru") Отдыхаю
+    .right-wing
+      img(src="img/right-wing.png", alt="")
+    footer.footer
+      .footer-wrapper
+        h2.title Как со мной связаться
+        ul.contacts
+          li.contact
+            a.facebook(href="http://www.facebook.com/en.mentelibera", target="_blank")
+              i.fa.fa-facebook-square(aria-hidden="true")
+              |   /im.mentelibera
+          li.contact
+            a.linkedin(href="https://ru.linkedin.com/in/vladimir-ushakov", target="_blank")
+              i.fa.fa-linkedin-square(aria-hidden="true")
+              |   linkedIn
+          li.contact
+            a.phone(href="https://spb.hh.ru/resume/26a78bbaff035163320039ed1f77706b755541", target="_blank")
+              i.fa.fa-circle(aria-hidden="true")
+              |   HeadHunter
+    script(src="js/dialog.js")
+    // Yandex.Metrika counter
+    script(type="text/javascript").
+      (function (d, w, c) {
+      (w[c] = w[c] || []).push(function() {
+      try {
+      w.yaCounter37745475 = new Ya.Metrika({
+      id:37745475,
+      clickmap:true,
+      trackLinks:true,
+      accurateTrackBounce:true,
+      webvisor:true
+      });
+      } catch(e) { }
+      });
+      var n = d.getElementsByTagName("script")[0],
+      s = d.createElement("script"),
+      f = function () { n.parentNode.insertBefore(s, n); };
+      s.type = "text/javascript";
+      s.async = true;
+      s.src = "https://mc.yandex.ru/metrika/watch.js";
+      if (w.opera == "[object Opera]") {
+      d.addEventListener("DOMContentLoaded", f, false);
+      } else { f(); }
+      })(document, window, "yandex_metrika_callbacks");
+    noscript
+      div
+        img(src="https://mc.yandex.ru/watch/37745475", style="position:absolute; left:-9999px;", alt="")
+    // /Yandex.Metrika counter
