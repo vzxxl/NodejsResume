@@ -9,6 +9,7 @@ app.set("views", path.join(__dirname, "/tpl"));
 app.use(express.static('public'));
 
 
+
 app.get(['/', '/index'], function(req, res){          // Обрабатываем запрос корневой страницы "/"
     res.render('index.pug');
 });
