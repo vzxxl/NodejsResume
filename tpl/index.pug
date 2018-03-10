@@ -109,7 +109,8 @@ html(lang="ru")
             h.style.height = "20px";
             h.style.height = (h.scrollHeight)+"px";
             }
-          form.form-style-4.animated.bounceIn(action="mail.php", method="post")
+          //
+            form.form-style-4.animated.bounceIn(action="mail.php", method="post")
             label(for="name")
               span Вас зовут:
               input(type="text", name="name", required="true")
@@ -125,6 +126,23 @@ html(lang="ru")
             label
               span  
               input(type="submit", value="Кинуть в ящик")
+          .form-style-4.animated.bounceIn
+           section.contact
+             h3.contact-title Contact me
+             ul
+                li
+                  a(href='https://facebook.com/en.mentelibera', target='_blank')
+                    i.fa.fa-facebook(aria-hidden='true')
+                li.github
+                  a(href='http://github.com/vzxxl', target='_blank')
+                     i.fa.fa-github
+                li.linkedin
+                  a(href='https://www.linkedin.com/in/vladimir-ushakov', target='_blank')
+                    i.fa.fa-linkedin(aria-hidden='true')
+                li.email
+                  a(href='mailto:vzxxl@yandex.ru')
+                    i.fa.fa-envelope-o(aria-hidden='true')
+
           .popup-section.popup-section5
           p.section-title.title
             | Для тех же, кто просто блуждает по бескрайним просторам сети и попал на эту страницу, есть возможность почитать об идеях, книгах и случаях, способных поменять вас и вашу реальность.

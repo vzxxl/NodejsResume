@@ -433,6 +433,39 @@ position: absolute;
 background: #F2784B;
 }
 
+.form-style-4 section {
+    height: 100%;
+}
+
+.form-style-4 .contact .contact-title {
+    position: relative;
+    color: #333030;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0 0 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contact ul {
+	margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.contact ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding-top: 30px;
+}
+
+.contact ul li a {
+	font-size: 50px;
+	padding: 20px;
+}
+
+
+
 
 /***********************************
             Swiper Slider
