@@ -103,6 +103,9 @@ position: absolute;
 .navbar-toggle {
   display: none;
   text-align: right; }
+  .navbar-toggle:focus {
+    outline: none;
+}
   .navbar-toggle.collapsed {
     width: 8%;
     background: none;
