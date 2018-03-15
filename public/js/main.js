@@ -1,6 +1,23 @@
 "use strict";
 
 $(document).ready(function() {
+  
+  /***********************
+      NAVBAR TOGGLE     
+  ***********************/
+
+  var $navBarToggle = $('.navbar-toggle');
+  var $generalContainer = $('.general-container');
+
+  $navBarToggle.on('click', function() {
+    $('#body').toggleClass('nooverflow');
+    $generalContainer.css('z-index', '-1');
+    $('.navbar-collapse').toggleClass('blackbcg');
+    $('.nav-collapsed').toggleClass('collapse').toggleClass('in');
+  });
+
+
+
   //Cashing DOM
   var $overlay = $('.overlay');
   var $whoIs = $('.who-is');
@@ -226,4 +243,71 @@ $navTab5.on('click', function() {
 
     
 
+//Before-After Slider
+
+$('.ba-slider').beforeAfter();  
+
+
+/******************************************
+************Translation page**************
+******************************************/
+
+//Translate-area 
+var $translateBtnUs = $('.translate-btn-us');
+var $titleUs = $('.title-us');
+var $titleRu = $('.title-ru');
+var $textUs = $('.text-us');
+var $textRu = $('.text-ru');
+
+$translateBtnUs.on('click', function() {
+  if (this.innerHTML == "Оригинал статьи") {
+    this.innerHTML = "Русский перевод";
+    $titleRu.addClass('invisible');
+    $textRu.addClass('invisible');
+    $titleUs.removeClass('invisible');
+    $textUs.removeClass('invisible');
+  } else {
+      this.innerHTML = "Оригинал статьи";
+      $titleUs.addClass('invisible');
+      $textUs.addClass('invisible');
+      $titleRu.removeClass('invisible');
+      $textRu.removeClass('invisible');
+  }
+
+  
+});
+
+//Choose-article
+var $article1 = $('.article-1');
+var $article2 = $('.article-2');
+var $articleBtn1 = $('.choose-article-1');
+var $articleBtn2 = $('.choose-article-2');
+
+$articleBtn2.on('click', function() {
+  $article1.addClass('invisible');
+  $article2.removeClass('invisible');
+
+  $translateBtnUs.innerHTML = "Оригинал статьи";
+
+  $titleUs.addClass('invisible');
+    $textUs.addClass('invisible');
+    $titleRu.removeClass('invisible');
+    $textRu.removeClass('invisible');
+});
+
+$articleBtn1.on('click', function() {
+  $article2.addClass('invisible');
+  $article1.removeClass('invisible');
+
+  $translateBtnUs.innerHTML = "Оригинал статьи";
+
+   $titleUs.addClass('invisible');
+    $textUs.addClass('invisible');
+    $titleRu.removeClass('invisible');
+    $textRu.removeClass('invisible');
+});
+
+
+
 });//$(document).ready(function() {})
+

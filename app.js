@@ -18,6 +18,10 @@ app.get('/portfolio', function(req, res){
     res.render('portfolio.pug');
 });
 
+app.get('/translator', function(req, res){          
+    res.render('translator.pug');
+});
+
  app.get('/en/index', function(req, res){          
  res.render('en/index.pug');
  });

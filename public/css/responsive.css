@@ -117,7 +117,11 @@
 	max-width: 64%;
 }
 
-	.main-section {
+.article-area {
+	padding: 30px 45px;
+}
+
+.main-section {
 	float: none;
 	max-width: 90%;
 	text-align: center;
@@ -302,12 +306,29 @@ body {
 	height: 60px;
 }
 
+.lang {
+	top:19px;
+}
+
 .nav {
-	display: block;
+	display: none;
 	position: static;
 	text-align: center;
 	font-size: 26px;
 }
+
+
+.navbar-toggle {
+		display: block;
+		float: right;
+	}
+
+	.navbar-toggle.collapsed {
+		margin-top: 17px;
+		margin-right: 17px;
+	}
+
+
 
 .nav li:nth-child(2) {
 	display: none;

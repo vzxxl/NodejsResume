@@ -100,6 +100,77 @@ position: absolute;
 	 font-size: 18px;
 }
 
+.navbar-toggle {
+  display: none;
+  text-align: right; }
+  .navbar-toggle.collapsed {
+    width: 8%;
+    background: none;
+    border: none;
+    margin-top: 35px; }
+    .navbar-toggle.collapsed .icon-bar {
+      width: 100%;
+      margin-bottom: 16%;
+      height: 5px; }
+
+.nooverflow {
+  overflow: hidden; }
+
+.blackbcg {
+  background-color: #000; }
+
+.navbar-nav li {
+  margin-bottom: 0px; }
+  .navbar-nav li a {
+    font-size: 22px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold; }
+
+.icon-bar {
+  margin-bottom: 15%;
+  background: #fff;
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px; }
+
+  .collapse.in {
+  	display: block;
+  }
+
+  .navbar-collapse.collapse.in {
+	height: 100vh;
+  }
+
+  .nav-collapsed {
+  	display: none;
+  	float: left;
+    margin-top: 25%;
+    width: 100%;
+    padding: 0;
+  }
+
+  .navbar-nav {
+  	text-align: center;
+  }
+
+  .navbar-nav li {
+  	list-style-type: none;
+  	padding: 10px 15px;
+  }
+
+  .navbar-nav li a {
+  	font-size: 22px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+	text-decoration: none;
+  }
+
+  .blackbcg {
+  background-color: #81CFE0;
+}
 
 /******************************
        GENERAL CONTENT
@@ -667,3 +738,72 @@ background: #F2784B;
 	font-size: 30px;
 }
 
+/*Aticle area*/
+
+.general-container-translator {
+	background-color: #C8F7C5;
+	box-shadow: 0 0 5px #999;
+	-webkit-box-shadow: 1px 1px 5px #999;
+	position: relative;
+	margin-bottom: 50px;
+}
+.article-area {
+	padding: 60px 90px;
+    font-size: 14px;
+}
+
+.article-area h1 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.article-area p {
+	font-family: "Verdana";
+    line-height: 200%;
+}
+
+
+/*Translate button*/
+
+.translate-btn {
+	position: absolute;
+	left: 9%;
+	top: 25px;
+	padding: 10px 25px 12px 25px;
+	border: 1px solid #222;
+	border-radius: 30px;
+	cursor: pointer;
+	background-color: #C8F7C5;
+}
+
+.translate-btn:hover {
+	background-color: rgba(0,0,0,.2);
+}
+
+.choose-article-module {
+	position: absolute;
+	top: 28px;
+	left: 87%;
+	font-size: 16px;
+}
+
+.choose-article {
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 50%;
+	border: 1px solid #222;
+	text-align: center;
+	padding: 5px 11px;
+}
+
+.choose-article:hover {
+	background-color: rgba(0,0,0,.2);
+}
+
+.choose-article-1 {
+
+}
+
+.invisible {
+	display: none;
+}
