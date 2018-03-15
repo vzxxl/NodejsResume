@@ -12,8 +12,8 @@ $(document).ready(function() {
 
   $navBarToggle.on('click', function() {
     $('#body').toggleClass('nooverflow');
-    $generalContainer.css('z-index', '-1');
-    $swiperContainer.css('z-index', '-1');
+    $generalContainer.toggleClass('low-index');
+    $swiperContainer.toggleClass('low-index');
     $('.navbar-collapse').toggleClass('blackbcg');
     $('.nav-collapsed').toggleClass('collapse').toggleClass('in');
   });
