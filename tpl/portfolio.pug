@@ -24,10 +24,13 @@ html(lang='ru')
     header.header
       ul.nav
         li.nav-element
-          a(href='index') ОБО МНЕ
+          a(href='index') КТО Я
         li.nav-element.vertical-bar  |
         li.nav-element
-          a.selected(href='portfolio') ПОРТФОЛИО
+          a.selected(href='portfolio') ВЕБ
+        li.nav-element.vertical-bar  | 
+        li.nav-element
+          a(href="translator") ПЕРЕВОД
       ul.lang
         li.nav-element
           a(href='en/portfolio') ENG 
@@ -46,6 +49,18 @@ html(lang='ru')
         p.emblemMsg.dialog-msg ЭМБЛЕМУ ПОЗАИМСТВОВАЛ, НЕ СПРОСИВ *confess*
         p.dialog-msg.quoteAuthor НА САМОМ ДЕЛЕ ЛЕГКО!
         p.profileMsg.dialog-msg CARPE DIEM!
+      button.navbar-toggle.collapsed(data-toggle='collapse', data-target='.navHeaderCollapse')
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      .navbar-collapse.navHeaderCollapse.collapse.in(aria-expanded='true', style='')
+        ul.nav-collapsed.navbar-nav
+          li
+            a(href='index') КТО Я
+          li
+            a(href='portfolio') ВЕБ
+          li
+            a(href='translator') ПЕРЕВОД
     .left-wing
       img(src='img/left-wing.png', alt='')
     .general-container-portfolio
