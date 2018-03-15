@@ -145,7 +145,7 @@ position: absolute;
 .collapse {
 	display: none;
 }
-  .collapse.in {
+  .in {
   	display: block;
   }
 
@@ -154,7 +154,6 @@ position: absolute;
   }
 
   .nav-collapsed {
-  	display: none;
   	float: left;
     margin-top: 25%;
     width: 100%;

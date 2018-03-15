@@ -15,7 +15,7 @@ $(document).ready(function() {
     $generalContainer.toggleClass('low-index');
     $swiperContainer.toggleClass('low-index');
     $('.navbar-collapse').toggleClass('blackbcg');
-    $('.nav-collapsed').toggleClass('in');
+    $('.navbar-collapse').toggleClass('in');
   });
 
 
