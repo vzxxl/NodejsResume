@@ -13,9 +13,8 @@ $(document).ready(function() {
   $navBarToggle.on('click', function() {
     $('#body').toggleClass('nooverflow');
     $generalContainer.toggleClass('low-index');
-    $swiperContainer.toggleClass('low-index');
-    $('.navbar-collapse').toggleClass('blackbcg');
-    $('.navbar-collapse').toggleClass('in');
+    $swiperContainer.toggleClass('collapse');
+    $('.navbar-collapse').toggleClass('blackbcg in');
   });
 
 
