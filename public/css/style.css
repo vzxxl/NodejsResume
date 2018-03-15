@@ -170,6 +170,7 @@ position: absolute;
 
   .blackbcg {
   background-color: #81CFE0;
+  z-index: 9999;
 }
 
 /******************************
@@ -554,6 +555,7 @@ background: #F2784B;
     background-size: 100% auto;
     background-position: contain;*/
     background-color: #A2DED0;
+    z-index: 1;
 }      
 
 .swiper-slide {
