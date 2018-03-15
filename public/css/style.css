@@ -183,7 +183,6 @@ position: absolute;
 	float: left;
 	font-family: /*'Roboto Slab', */'Arial Narrow', 'Garamond', serif;
 	margin-top: 2%;
-	z-index: 1;
 }
 
 .general-container-portfolio {

@@ -8,10 +8,12 @@ $(document).ready(function() {
 
   var $navBarToggle = $('.navbar-toggle');
   var $generalContainer = $('.general-container');
+  var $swiperContainer = $('.swiper-container');
 
   $navBarToggle.on('click', function() {
     $('#body').toggleClass('nooverflow');
     $generalContainer.css('z-index', '-1');
+    $swiperContainer.css('z-index', '-1');
     $('.navbar-collapse').toggleClass('blackbcg');
     $('.nav-collapsed').toggleClass('collapse').toggleClass('in');
   });
