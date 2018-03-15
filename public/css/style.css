@@ -142,6 +142,9 @@ position: absolute;
   height: 2px;
   border-radius: 1px; }
 
+.collapse {
+	display: none;
+}
   .collapse.in {
   	display: block;
   }
