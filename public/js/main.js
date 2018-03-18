@@ -125,6 +125,23 @@ $(document).mouseup(function (e)
     }
 });
 
+//Skill-bar plugin for charts
+
+$('#skill1').simpleSkillbar({width: 90, background: "#90CAF9", textColor: "#000"});
+$('#skill2').simpleSkillbar({width: 90, background: "#A5D6A7", textColor: "#000"});
+$('#skill3').simpleSkillbar({width: 90, background: "#E6EE9C", textColor: "#000"});
+$('#skill31').simpleSkillbar({width: 95, background: "#FFCC80", textColor: "#000"});
+$('#skill4').simpleSkillbar({width: 80, background: "#B2FF59", textColor: "#000"});
+$('#skill5').simpleSkillbar({width: 85, background: "#BCAAA4", textColor: "#000"});
+$('#skill6').simpleSkillbar({width: 70, background: "#B0BEC5", textColor: "#000"});
+
+$('#skill7').simpleSkillbar({width: 95, background: "#90CAF9", textColor: "#000"});
+$('#skill8').simpleSkillbar({width: 85, background: "#A5D6A7", textColor: "#000"});
+$('#skill9').simpleSkillbar({width: 75, background: "#FFCC80", textColor: "#000"});
+$('#skill10').simpleSkillbar({width: 75, background: "#B2FF59", textColor: "#000"});
+$('#skill11').simpleSkillbar({width: 75, background: "#BCAAA4", textColor: "#000"});
+$('#skill12').simpleSkillbar({width: 65, background: "#B0BEC5", textColor: "#000"});
+$('#skill13').simpleSkillbar({width: 50, background: "pink", textColor: "#000"});
 
 /*****************
   TAB PANEL
@@ -245,9 +262,9 @@ $navTab5.on('click', function() {
     
 
 //Before-After Slider
-
+/*if (typeof beforeAfter == 'function') {
 $('.ba-slider').beforeAfter();  
-
+ };*/
 
 /******************************************
 ************Translation page**************
@@ -307,6 +324,7 @@ $articleBtn1.on('click', function() {
     $titleRu.removeClass('invisible');
     $textRu.removeClass('invisible');
 });
+
 
 
 

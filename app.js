@@ -4,30 +4,36 @@ var router = express.Router();
 var path = require('path');
 
 
-app.set('view engine', 'pug');
-app.set("views", path.join(__dirname, "/tpl"));
+var mustacheExpress = require('mustache-express');
+
+app.engine('html', mustacheExpress());
+app.set('view engine', 'html');
+app.set('views', path.join(__dirname, "/tpl"));
+
+//app.set('view engine', 'pug');
+//app.set("views", path.join(__dirname, "/tpl"));
 app.use(express.static('public'));
 
 
 
 app.get(['/', '/index'], function(req, res){          // Обрабатываем запрос корневой страницы "/"
-    res.render('index.pug');
+    res.render('index.html');
 });
 
 app.get('/portfolio', function(req, res){          
-    res.render('portfolio.pug');
+    res.render('portfolio.html');
 });
 
 app.get('/translator', function(req, res){          
-    res.render('translator.pug');
+    res.render('translator.html');
 });
 
  app.get('/en/index', function(req, res){          
- res.render('en/index.pug');
+ res.render('en/index.html');
  });
 
  app.get('/en/portfolio', function(req, res){   
-    res.render('en/portfolio.pug');      
+    res.render('en/portfolio.html');      
  });
 
 

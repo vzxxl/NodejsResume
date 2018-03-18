@@ -546,6 +546,12 @@ background: #F2784B;
 	color: #0000EE;
 }
 
+/******Skillbar********/
+.skillbar-unit {
+	margin: 10px 0 10px 0;
+	text-align: left;
+	font-weight: bold;
+}
 
 
 
