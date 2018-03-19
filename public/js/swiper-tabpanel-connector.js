@@ -52,11 +52,11 @@
 
    } else if ( $('#slide5').is('.swiper-slide-active') ) {
 
-    $('#tab-panel-container-1').hide();
-    $('#tab-panel-container-2').hide();
-    $('#tab-panel-container-3').hide();
-    $('#tab-panel-container-4').hide();
-    $('#tab-panel-container-5').show();
+            $('#tab-panel-container-1').hide();
+            $('#tab-panel-container-2').hide();
+            $('#tab-panel-container-3').hide();
+            $('#tab-panel-container-4').hide();
+            $('#tab-panel-container-5').show();
 
 
 };
